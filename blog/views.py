@@ -25,6 +25,7 @@ def post_search(request):
         form = SearchForm()
         context = {'form':form}
         return render (request, 'blog/post/search.html', context)
+        # 
 # def post_search(request):
 #     results = []  # or None
 #     total_results = 0  # or None
